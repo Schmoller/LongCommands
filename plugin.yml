@@ -3,7 +3,7 @@ version: ${pom.version}
 
 description: Provides the abililty to get around the line length limit via the \ character
 
-main: au.com.addstar.longcommand.LongCommands
+main: au.com.addstar.longcommands.LongCommands
 
 loadbefore: [CommandHelper]
 

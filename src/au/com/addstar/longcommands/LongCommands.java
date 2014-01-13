@@ -112,4 +112,10 @@ public class LongCommands extends JavaPlugin implements Listener
 				event.getPlayer().sendMessage(ChatColor.GOLD + "Long command cancelled.");
 		}
 	}
+	
+	@Override
+	public void onEnable()
+	{
+		Bukkit.getPluginManager().registerEvents(this, this);
+	}
 }
