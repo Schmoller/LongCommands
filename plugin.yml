@@ -1,0 +1,12 @@
+name: LongCommands
+version: ${pom.version}
+
+description: Provides the abililty to get around the line length limit via the \ character
+
+main: au.com.addstar.longcommand.LongCommands
+
+loadbefore: [CommandHelper]
+
+permissions:
+  longcommands.allow:
+    default: op
