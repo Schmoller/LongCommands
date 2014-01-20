@@ -83,7 +83,7 @@ public class LongCommands extends JavaPlugin implements Listener
 	@EventHandler(priority=EventPriority.LOWEST, ignoreCancelled=true)
 	private void onPlayerCommand(PlayerCommandPreprocessEvent event)
 	{
-		if(!event.getPlayer().hasPermission("pandora.longcommands"))
+		if(!event.getPlayer().hasPermission("longcommands.allow"))
 			return;
 		
 		if(event.getMessage().endsWith(longCommandKey))
